@@ -1,5 +1,3 @@
-gametitle=Need for Speed - Most Wanted [PAL-M] [SLES-53559] CA2A1B04
-
 [Widescreen 16:9]
 gsaspectratio=16:9
 author=PeterDelta
@@ -21,3 +19,10 @@ patch=0,EE,20322DB4,extended,0000102D
 author=PeterDelta
 description=Removes the blur effect
 patch=1,EE,00550424,word,00000000
+
+[Enable Black Edition]
+description=Black Edition content, Burger King Challenge and Castrol Ford GT always enabled
+author=Sal_89
+patch=1,EE,20574940,byte,1
+patch=1,EE,20574528,byte,1
+patch=1,EE,20574564,byte,1
